@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://v2.nonebot.dev/"><img src="https://img.shields.io/badge/nonebot-v2.4.2+-000000.svg" alt="nonebot"></a>
   <img src="https://img.shields.io/badge/python-3.10+-blue.svg" alt="python">
-  <a href="https://github.com/hlfzsi/nonebot-plugin-lazytea-shell-extension"><img src="https://img.shields.io/github/stars/hlfzsi/nonebot-plugin-lazytea-shell-extension" alt="stars"></a>
+  <a href="https://github.com/hlfzsi/nonebot-plugin-lazytea-shell-extension"><img src="https://img.shields.io/github/stars/hlfzsi/nonebot_plugin_lazytea_shell_extension" alt="stars"></a>
 </p>
 
 **一个为 `nonebot-plugin-lazytea` 打造的强大“命令行工具”，让你在机器人运行时，通过指令动态、精细地管理几乎所有功能的权限。**
