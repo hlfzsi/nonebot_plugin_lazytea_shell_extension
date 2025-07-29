@@ -27,7 +27,7 @@ __plugin_meta__ = PluginMetadata(
         "/tea bl add/rm user/group [ID] [指令] - 管理黑名单"
     ),
     type="application",
-    homepage="",
+    homepage="https://github.com/hlfzsi/nonebot_plugin_lazytea_shell_extension",
     config=Config,
     supported_adapters=inherit_supported_adapters(
         "nonebot_plugin_lazytea", "nonebot_plugin_alconna"),
