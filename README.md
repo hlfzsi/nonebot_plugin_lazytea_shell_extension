@@ -6,9 +6,25 @@
   <a href="https://github.com/hlfzsi/nonebot-plugin-lazytea-shell-extension"><img src="https://img.shields.io/github/stars/hlfzsi/nonebot_plugin_lazytea_shell_extension" alt="stars"></a>
 </p>
 
-**一个为 `nonebot-plugin-lazytea` 打造的强大“命令行工具”，让你在机器人运行时，通过指令动态、精细地管理几乎所有功能的权限。**
+**一个为 `nonebot-plugin-lazytea` 打造的强大"命令行工具"，让你在机器人运行时，通过指令动态、精细地管理几乎所有功能的权限。**
 
 厌倦了每次修改权限都要翻看后台、修改文件甚至重启机器人？现在，你只需要一个 `/tea` 指令。
+
+# 📌 项目关系
+
+为了更好地理解 LazyTea 生态，请注意以下几个项目的区别与联系：
+
+| 项目                          | 主要职责                                       | 仓库地址                                                                                     |
+| :---------------------------- | :--------------------------------------------- | :------------------------------------------------------------------------------------------- |
+| 🐚**lazytea-shell-extension (本项目)** | **命令行扩展**，允许通过聊天消息执行管理命令。 | [lazytea-shell-extension](https://github.com/hlfzsi/nonebot_plugin_lazytea_shell_extension/) |
+| 🔌**nonebot_plugin_lazytea**  | **NoneBot2 插件**，作为 LazyTea 的后端服务端。 | [nonebot_plugin_lazytea](https://github.com/hlfzsi/nonebot_plugin_lazytea)                   |
+| 🍵**LazyTea Client**          | **独立桌面客户端**，用于连接并管理后端服务。   | [LazyTea-Client](https://github.com/hlfzsi/LazyTea-Client)                                   |
+| 🌐**LazyTea Web**             | **Web管理界面**，提供跨平台的浏览器访问体验。  | [LazyTea-Web](https://github.com/hlfzsi/LazyTea-Web)                                         |
+| 📱**LazyTea Mobile**          | **跨平台移动客户端**，随时随地管理机器人。     | [LazyTea-mobile](https://github.com/hlfzsi/LazyTea-mobile)                                   |
+
+简单来说，本插件为 LazyTea 生态系统提供了命令行管理能力，让您可以直接在聊天窗口中执行权限管理操作，无需打开任何图形界面。
+
+<br>
 
 ## ✨ 功能特性
 
@@ -119,3 +135,17 @@ TEA_PERM_ALLOWANCE='["在此处填写你的QQ号"]'
 
 * **多重匹配**：如果一个 `<目标指令>` 同时匹配了多个同优先级的处理器，插件会选择**第一个成功匹配的**进行操作，并在日志中打印警告信息。
 * **定位疑难**：如果您发现 `/tea` 指令管理的目标不是您预期的那个，很可能是因为根据上述优先级规则，有另一个更高优先级的处理器先响应了您的 `<目标指令>`。请尝试使用更精确的文本来定位, 或直接在 LazyTea 的 GUI 中进行管理。
+
+---
+
+### **友情链接**
+
+* [nonebot_plugin_lazytea](https://github.com/hlfzsi/nonebot_plugin_lazytea)：LazyTea 的核心后端服务插件
+* [LazyTea Client](https://github.com/hlfzsi/LazyTea-Client)：独立的桌面客户端，功能更全面的原生应用
+* [LazyTea Web](https://github.com/hlfzsi/LazyTea-Web)：现代化的 Web 管理界面，支持所有浏览器访问
+* [LazyTea Mobile](https://github.com/hlfzsi/LazyTea-mobile)：移动设备专用客户端，随时随地管理机器人
+* [NoneBot WebUI](https://webui.nbgui.top/)：✨ 新一代 NoneBot Web 管理界面 ✨
+
+<br>
+
+![Star History](https://api.star-history.com/svg?repos=hlfzsi/nonebot_plugin_lazytea_shell_extension,hlfzsi/nonebot_plugin_lazytea&type=Date)
